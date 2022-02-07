@@ -63,9 +63,12 @@ p , li{
 }
 
 .botao-topo{
+    margin-bottom: 3rem;
     padding: 0.6rem;
     background-color: #3FB3FD;
     color: white;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 20px;
     border-style: solid;
     border-color: #3FB3FD;
@@ -131,4 +134,124 @@ p , li{
 #about-list i{
     color: #3FB3FD;
     padding-right: 0.5rem;
+}
+
+@media (max-width:426px) {
+    .about-div{
+        margin-top: 2rem;
+    }
+}
+
+
+/*Serviços*/
+
+.service-box{
+    margin-bottom: 50px;
+}
+
+.service-box i , .service-box h4{
+    transition: .5s;
+}
+
+.service-box i {
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.service-box h4{
+    margin-bottom: 10px;
+}
+
+.service-box:hover > i, .service-box:hover > h4 {
+    color: #3FB3FD;
+}
+
+/*Dados*/
+
+.circle-box div{
+    padding: 0 40px;
+}
+
+progessbar-text{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.dados-da-empresa p{
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+}
+
+#circleA{
+    align-items: center;
+    border: 5px solid #3FB3FD;
+	border-radius: 100%;
+	height: 184px;
+	width: 200px;
+    color: black;
+}
+
+.dados-p{
+    color: black!important;
+}
+@media (max-width:768px) {
+    .div-card-align{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .div-card-align > div{
+        width: 70%!important;
+    }
+}
+
+
+/*Desafios*/
+
+.conatiner-desafio{
+    padding-bottom: 8rem!important;
+}
+
+.p-desafio{
+    text-align: center;
+    font-size: 1rem;
+    color: #fff!important;
+}
+
+.titulo-desafio{
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #fff!important;
+}
+.botao-paralax{
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    padding: 1rem;
+    background-color: transparent;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+    transition: .3s;
+    margin-bottom: 2rem;
+}
+.botao-paralax:hover{
+    background-color: #3FB3FD;
+
+}
+#apply-area{
+  background-image: url("./img/img/pattern.png");
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }

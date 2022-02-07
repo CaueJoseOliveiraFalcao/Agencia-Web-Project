@@ -6,6 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hDc Agency</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/01147d2664.js" crossorigin="anonymous"></script>
+    <script src="./img/progessbar.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./index.css">
@@ -95,7 +102,7 @@
                     <div class="col-md-6">
                         <img class="img-fluid" src="./img/img/agencia.jpg" alt="agencia-lugar">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 about-div">
                         <h3 class="about-title">Uma agencia que pensa no futuro</h3>
                         <p>Nossos projetos são adaptados ao cliente e seu proposito.</p>
                         <p>Apos a espeficicação dos projetos os arquitetos de software definirão as melhores tecnologias
@@ -113,13 +120,111 @@
                 </div>
             </div>
         </div>
+        <div id="area-de-servico">
+            <div class="container justify-content-center">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <h3 class="titulo-padrao">Nossas especialidades</h3>
+                    </div>
+                    <div class="col-md-4 service-box">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h4>Aplicativos Nativos</h4>
+                        <p>Utilizamos o real poder dos dispositivos moveis construindo aplivativos nativos</p>
+                    </div>
+                    <div class="col-md-4 service-box">
+                        <i class="fas fa-shopping-cart"></i>
+                        <h4>E-comerce</h4>
+                        <p>Temos uma plataforma propia de E-comerce que se adapta a qualquer regra de negocio (B2C e
+                            B2B)</p>
+                    </div>
+                    <div class="col-md-4 service-box">
+                        <i class="fas fa-paint-brush"></i>
+                        <h4>Design Criativo</h4>
+                        <p>Nossos designers são especializados em UI/UX tambem possuem vasta experiencia no mercado de
+                            software</p>
+                    </div>
+                    <div class="col-md-4 service-box">
+                        <i class="fab fa-google"></i>
+                        <h4>Experts em SEO</h4>
+                        <p>Com nosso serviço de marketing seu site será melhor posicionado no Google e venderá mais</p>
+                    </div>
+                    <div class="col-md-4 service-box">
+                        <i class="fas fa-hands-helping"></i>
+                        <h4>Suporte 24/7</h4>
+                        <p>Você sempre tera algem disponivel para suporte , em diferentes plataformas.
+                            (chay,e-mail,skype) </p>
+                    </div>
+                    <div class="col-md-4 service-box">
+                        <i class="fas fa-server"></i>
+                        <h4>Experiencia em Servidores</h4>
+                        <p>Garantimos Up time e rapido tempo de resposta do seu site para seu cliente</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="time">
+            <div class="container">
+                <h3 class="titulo-padrao">Nosso Time</h3>
+                <div class="row text-center">
+                    <div class="col-md-3 div-card-align">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/img/profile1.jpg" class="card-img-top" alt="Card-img-time">
+                            <div class="card-body">
+                              <h4 class="card-text">John Doe</h4>
+                              <p class="text-secondary">Software Developer</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-3 div-card-align">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/img/profile2.jpg" class="card-img-top" alt="Card-img-time">
+                            <div class="card-body">
+                              <h4 class="card-text">Maria Mariana</h4>
+                              <p class="text-secondary">CEO consultant</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-3 div-card-align">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/img/profile3.jpg" class="card-img-top" alt="Card-img-time">
+                            <div class="card-body">
+                              <h4  class="card-text">Paul Baker</h4>
+                              <p class="text-secondary">Project Manager</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-3 div-card-align">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/img/profile4.jpg" class="card-img-top" alt="Card-img-time">
+                            <div class="card-body">
+                              <h4  class="card-text">Karina Katarina</h4>
+                              <p class="text-secondary">UX/UI Designer</p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="desafios">
+            <div class="container-fluid  conatiner-desafio">
+                <div class="row">
+                    <div class="col-md-6 m-0 p-0">
+                        <img class="img-fluid " src="./img/img/empresa.jpg" alt="" class="">
+                    </div>
+                    <div class="col-md-6" id="apply-area">
+                        <h3 class="titulo-desafio">gosta de desafios?</h3>
+                        <p class="p-desafio">Temos varias posições abertas , entre elas : Software Engineer , UI/UX Designer,Project Manager e mais</p>
+                        <p class="p-desafio">Clique no botão e confira os beneficios e as posições em aberto</p>
+                        <p class="p-desafio">Aqui voce terá a chance de trabalhar com as melhores tecnologias e os profissionais mais capacitados </p>
+                        <button type="button" class="botao-paralax">Entre em contato</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-    <script src="./index.js"></script>
+
     <script src="https://kit.fontawesome.com/01147d2664.js" crossorigin="anonymous"></script>
-    <script src="./img/progessbar.min.js"></script>
+    <script src="https://github.com/kimmobrunfeldt/progressbar.js/blob/master/dist/progressbar.min.js"></script>
 </body>
 
 </html>
