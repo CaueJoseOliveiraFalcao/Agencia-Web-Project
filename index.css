@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 /*Gerais*/
 
 body{
@@ -18,7 +19,6 @@ p , li{
 
 /*Bara de navegação*/
 
-
  .img-logo{
      width: 75px;
  }
@@ -29,12 +29,14 @@ p , li{
  .nav-link:hover{
      color: #fff;
  }
-/*Carrosel*/
+
+ /*Carrosel*/
 
 .carousel {
     position: relative;
     height: 90vh;
 }
+
 .carousel-inner {
     position: relative;
     width: 100%;
@@ -55,30 +57,10 @@ p , li{
 .carrosel-p{
     margin-bottom: 6rem;
 }
-@media (max-width:426px) {
-    .carousel {
-        position: relative;
-        height: 70vh;
-    }
-    .carrosel-titulos{
-        font-size: 2rem;
-    }
-    .carrosel-p {
-        margin-bottom: 4rem;
-    }
-}
-
-
 .carrosel-img{
     height: 100%!important;
     object-fit: cover;
 }
-    
-@media (max-width:768px) {
-    
-    
-}
-
 
 .botao-topo{
     padding: 0.6rem;
@@ -95,5 +77,58 @@ p , li{
     background-color: transparent;
 }
 
+   
+@media (max-width:426px) {
+    .carousel {
+        position: relative;
+        height: 70vh;
+    }
+    .carrosel-titulos{
+        font-size: 2rem;
+    }
+    .carrosel-p {
+        margin-bottom: 4rem;
+    }
+}
 
+/*Sobre a empresa*/
 
+.about-area{
+    background-color: #f9f9f9;
+}
+.titulo-padrao{
+    color: #444;
+    margin-bottom: 65px;
+    font-size: 40px;
+    text-align: center;
+}
+.titulo-padrao::before{
+    content: '';
+    position: absolute;
+    border-top: 2px solid #333;
+    width: 15%; 
+    bottom: -70px;
+    left: 42.5%;
+}
+
+.about-title{
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+#about-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li{
+    line-height: 35px;
+}
+
+#about-list i{
+    color: #3FB3FD;
+    padding-right: 0.5rem;
+}
