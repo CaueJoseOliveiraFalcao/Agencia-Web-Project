@@ -225,6 +225,7 @@ progessbar-text{
     font-size: 1.5rem;
     text-transform: uppercase;
     color: #fff!important;
+    padding-top: 1rem;
 }
 .botao-paralax{
     justify-content: center;
@@ -244,7 +245,7 @@ progessbar-text{
 
 }
 #apply-area{
-  background-image: url("./img/img/pattern.png");
+  background-image: url("./img/img/background-paralax.jpg");
   min-height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -254,4 +255,145 @@ progessbar-text{
   background-repeat: no-repeat;
   background-size: cover;
 
+}
+
+/*Nossos projetos*/
+
+.botao-projetos{
+    color: #444;
+    text-align: center;
+    min-width: 150px;
+    background-color: transparent;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: #444;
+    padding: 0.9rem;
+    transition: .3s;
+}
+
+.botao-projetos:hover{
+    color: #fff;
+    background-color: #3FB3FD;
+    border-color: #3FB3FD;
+}
+
+.container-projeto{
+    padding: 0;
+}
+.filter-btn.active{
+    color: #fff;
+    background-color: #3FB3FD;
+    border-color: #3FB3FD;
+}
+@media (max-width:426px) {
+    .dive-projetos{
+        display: flex;
+        flex-direction: column;
+    }
+    .botao-projetos{
+        margin-bottom: 1.4rem;
+    }
+}
+
+/*Form*/
+
+#email{
+    border-radius: 0;
+     border-top-left-radius: 20px;
+     border-bottom-left-radius: 20px;
+     border:1px solid #3FB3FD;
+
+     width: 100%;
+     height: 40px;
+}
+
+#submit{
+    border-radius: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #3FB3FD;
+    border-color: #3FB3FD;
+    border-style: solid;
+    color: white;
+    width: 50%;
+    transition: .3s;
+}
+#submit:hover{
+    background-color: white;
+    color: #3FB3FD;
+    border-color: white;
+}
+
+.container-email{
+    margin-bottom: 10rem;
+}
+
+.form-tamanho{
+    width: 500px;
+    margin-top: 4rem;
+}
+.container-color{
+    background-color: #5ec1ff;
+}
+.conatiner-orca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 2.8rem;
+}
+
+.conatiner-orca h4{
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 1rem;
+}
+
+.conatiner-orca button{
+    color: #3FB3FD;
+    background-color: white;
+    border-radius: 35px;
+    border-style: solid;
+    text-transform: uppercase;
+    border-color: #3FB3FD;
+    padding: 1rem;
+    font-size: 23px;
+    transition:  .3s;
+}
+
+.conatiner-orca button:hover{
+    background-color: #3FB3FD;
+    color: white;
+}
+
+.icone-border{
+    border-style: solid;
+    padding: 1rem;
+    border-radius: 35px;
+    margin-bottom: 2rem
+}
+
+#email-contato{
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.buton-contato{
+    background-color: #3FB3FD;
+    color: #fff;
+    padding: 0.7rem;
+    border-radius: 20px;
+    width: 50%;
+}
+
+mark{
+    color: #3FB3FD;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+@media (max-width:426px) {
+    .buton-contato{
+        width: 100%;
+    }
 }

@@ -31,12 +31,12 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <section class="collapse navbar-collapse justify-content-end " id="navbarNav">
-                    <a class="nav-item nav-link" id="home-menu">Home</a>
-                    <a class="nav-item nav-link" id="about-menu">A agencia</a>
-                    <a class="nav-item nav-link" id="services-menu">Serviços</a>
-                    <a class="nav-item nav-link" id="team-menu">Time</a>
-                    <a class="nav-item nav-link" id="portifolio-menu">Projetos</a>
-                    <a class="nav-item nav-link" id="contact-menu">Contato</a>
+                    <a href="#about-area" class="nav-item nav-link" id="home-menu">Home</a>
+                    <a href="#about-area" class="nav-item nav-link" id="about-menu">A agencia</a>
+                    <a href="#area-de-servico"  class="nav-item nav-link" id="services-menu">Serviços</a>
+                    <a href="#time"  class="nav-item nav-link" id="team-menu">Time</a>
+                    <a href="#conteudos" class="nav-item nav-link" id="portifolio-menu">Projetos</a>
+                    <a href="#footer"  class="nav-item nav-link" id="contact-menu">Contato</a>
                 </section>
             </div>
         </nav>
@@ -93,7 +93,7 @@
                 </button>
             </div>
         </div>
-        <div class="about-area">
+        <div id="about-area">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -170,37 +170,37 @@
                         <div class="card" style="width: 18rem;">
                             <img src="./img/img/profile1.jpg" class="card-img-top" alt="Card-img-time">
                             <div class="card-body">
-                              <h4 class="card-text">John Doe</h4>
-                              <p class="text-secondary">Software Developer</p>
+                                <h4 class="card-text">John Doe</h4>
+                                <p class="text-secondary">Software Developer</p>
                             </div>
-                          </div>
+                        </div>
                     </div>
                     <div class="col-md-3 div-card-align">
                         <div class="card" style="width: 18rem;">
                             <img src="./img/img/profile2.jpg" class="card-img-top" alt="Card-img-time">
                             <div class="card-body">
-                              <h4 class="card-text">Maria Mariana</h4>
-                              <p class="text-secondary">CEO consultant</p>
+                                <h4 class="card-text">Maria Mariana</h4>
+                                <p class="text-secondary">CEO consultant</p>
                             </div>
-                          </div>
+                        </div>
                     </div>
                     <div class="col-md-3 div-card-align">
                         <div class="card" style="width: 18rem;">
                             <img src="./img/img/profile3.jpg" class="card-img-top" alt="Card-img-time">
                             <div class="card-body">
-                              <h4  class="card-text">Paul Baker</h4>
-                              <p class="text-secondary">Project Manager</p>
+                                <h4 class="card-text">Paul Baker</h4>
+                                <p class="text-secondary">Project Manager</p>
                             </div>
-                          </div>
+                        </div>
                     </div>
                     <div class="col-md-3 div-card-align">
                         <div class="card" style="width: 18rem;">
                             <img src="./img/img/profile4.jpg" class="card-img-top" alt="Card-img-time">
                             <div class="card-body">
-                              <h4  class="card-text">Karina Katarina</h4>
-                              <p class="text-secondary">UX/UI Designer</p>
+                                <h4 class="card-text">Karina Katarina</h4>
+                                <p class="text-secondary">UX/UI Designer</p>
                             </div>
-                          </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -213,15 +213,137 @@
                     </div>
                     <div class="col-md-6" id="apply-area">
                         <h3 class="titulo-desafio">gosta de desafios?</h3>
-                        <p class="p-desafio">Temos varias posições abertas , entre elas : Software Engineer , UI/UX Designer,Project Manager e mais</p>
+                        <p class="p-desafio">Temos varias posições abertas , entre elas : Software Engineer , UI/UX
+                            Designer,Project Manager e mais</p>
                         <p class="p-desafio">Clique no botão e confira os beneficios e as posições em aberto</p>
-                        <p class="p-desafio">Aqui voce terá a chance de trabalhar com as melhores tecnologias e os profissionais mais capacitados </p>
+                        <p class="p-desafio">Aqui voce terá a chance de trabalhar com as melhores tecnologias e os
+                            profissionais mais capacitados </p>
                         <button type="button" class="botao-paralax">Entre em contato</button>
                     </div>
                 </div>
             </div>
         </div>
+        <div id="nossos-projetos">
+            <div class="container container-projeto d-flex justify-content-center">
+                <div class="row w-50">
+                    <div class="col-12">
+                        <h3 class="titulo-padrao">Conheça Nossos Planos</h3>
+                        <div class="col-12 dive-projetos" id="filter-btn-box">
+                            <button class="botao-projetos filter-btn" id="all-btn">Todos</button>
+                            <button class="botao-projetos filter-btn" id="dev-btn">Desenvolvimento</button>
+                            <button class="botao-projetos filter-btn" id="dsg-btn">Design</button>
+                            <button class="botao-projetos filter-btn" id="seo-btn">SEO</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 project-box dev p-3">
+                        <img src="./img/img/proj1.jpg" class="img-fluid" alt="deselvolvedor">
+                    </div>
+                    <div class="col-md-4 project-box dsg p-3">
+                        <img src="./img/img/proj2.jpg" class="img-fluid" alt="projeto1">
+                    </div>
+                    <div class="col-md-4 project-box seo p-3">
+                        <img src="./img/img/proj3.jpg" class="img-fluid" alt="projeto2">
+                    </div>
+                    <div class="col-md-4 project-box dev p-3">
+                        <img src="./img/img/proj4.jpg" class="img-fluid" alt="projeto3">
+                    </div>
+                    <div class="col-md-4 project-box dsg p-3">
+                        <img src="./img/img/proj5.jpg" class="img-fluid" alt="projeto4">
+                    </div>
+                    <div class="col-md-4 project-box dev p-3">
+                        <img src="./img/img/proj6.jpg" class="img-fluid" alt="projeto5">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="conteudos">
+            <div class="container-fluid container-email">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="titulo-padrao">Fique por dentro das novidades</h3>
+                    </div>
+                    <div class="col-12">
+                        <p class=" d-flex justify-content-center fs-4">Assine nossa lista de e-mails , e receba nossos
+                            conteudos sobre o desenvolvimento de software</p>
+                        <div class="col-12 justify-content-center d-flex">
+                            <form action="" class="d-flex form-tamanho">
+                                <input type="email" placeholder="Digite seu e-mail" name="email" id="email">
+                                <input type="submit" value="Enviar" id="submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid container-color mb-5">
+                <div class="row">
+                    <div class="col-12 conatiner-orca">
+                        <h4>deseja fazer um orçamento sem compromisso?</h4>
+                        <button>orçar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
+    <footer id="footer">
+        <div class="container d-flex justify-content-center">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="titulo-padrao">Entre em Contato Conosco</h3>
+                </div>
+                <div class="col-md-4 text-center fs-3">
+                    <i class="fa fa-phone icone-border" aria-hidden="true"></i>
+                    <p><mark>Ligue para :</mark><a
+                            href="https://api.whatsapp.com/send/?phone=5592993659949&text&app_absent=0">Min</a></p>
+                    <p><mark>Horarios</mark>8:00 - 19:00</p>
+                </div>
+                <div class="col-md-4 text-center fs-3">
+                    <i class="fa fa-phone icone-border" aria-hidden="true"></i>
+                    <p><mark>Envie um e-mail:</mark>contato@hdcagency.com.br</p>
+                    <p></p>
+                </div>
+                <div class="col-md-4 text-center fs-3">
+                    <i class="fa fa-location-arrow icone-border" aria-hidden="true"></i>
+                    <p><mark>Venha tomar um café:</mark>Rua Lorem Ipsum - 1314</p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <hr class="w-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Ou nos deixe uma mensagem</h3>
+                </div>
+                <div class="col-md-6">
+                    <form action="">
+                        <div class="col-12">
+                            <input type="email" name="emai-contato" class="w-100 " id="email-contato" placeholder="E-mail">
+                        </div>
+                        <div class="col-12">
+                            <input type="text" name="emai-contato" class="w-100" id="email-contato" placeholder="Assunto">
+                        </div>
+                        <div class="col-12">
+                            <textarea type="textare" name="emai-contato" class="w-100" id="email-contato" placeholder="Sua mensagem"></textarea>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center">
+                            <button class="buton-contato">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-primary">
+            <div class="row">
+                <div class="col-12 justify-content-center d-flex fs-4">
+                    <p class="text-light">Desenvolvido por<mark>Cauê Falcão</mark></p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://kit.fontawesome.com/01147d2664.js" crossorigin="anonymous"></script>
     <script src="https://github.com/kimmobrunfeldt/progressbar.js/blob/master/dist/progressbar.min.js"></script>

@@ -5,3 +5,4 @@ $('.carousel').carousel({
 setTimeout(function(){
   $('apply-area').paralax({imagSrc:'img/pattern.png'});
 }, 250)
+
